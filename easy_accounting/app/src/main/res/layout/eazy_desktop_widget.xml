@@ -1,0 +1,48 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="40dp"
+    android:background="@color/background_white"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:id="@+id/song_guo_desktop_widget_add_main"
+            android:layout_width="40dp"
+            android:layout_height="match_parent"
+            android:src="@drawable/ic_launcher_playstore" />
+
+        <TextView
+            android:id="@+id/song_guo_desktop_widget_add_account"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="记一笔账"
+            android:textColor="#ff000000"
+            android:textSize="@dimen/song_guo_desktop_widget_text_size" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:text="|"
+            android:textColor="#ff000000"
+            android:textSize="@dimen/song_guo_desktop_widget_text_size" />
+
+        <TextView
+            android:id="@+id/song_guo_desktop_widget_add_event"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="记一件事"
+            android:textColor="#ff000000"
+            android:textSize="@dimen/song_guo_desktop_widget_text_size" />
+
+    </LinearLayout>
+
+</LinearLayout>

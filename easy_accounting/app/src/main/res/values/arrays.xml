@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="activity_setting_budget_overview_array">
+        <item>未设置</item>
+        <item>按全部计算</item>
+        <item>按年计算</item>
+        <item>按月计算</item>
+        <item>按周计算</item>
+    </array>
+</resources>

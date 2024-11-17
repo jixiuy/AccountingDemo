@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.blackorangejuice.songguojizhang">
+
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:name=".utils.other.EazyApplication"
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher_playstore"
+        android:label="简单记账"
+        android:supportsRtl="true"
+        android:usesCleartextTraffic="true"
+        android:theme="@style/Theme.SongGuoJiZhang">
+        <activity
+            android:name=".transaction.home.myinfo.in.backup.BackupSettingActivity"
+            android:exported="false" />
+        <activity
+            android:name=".transaction.guide.PasswordQuestionAndAnswerActivity"
+            android:exported="false" />
+        <activity
+            android:name=".transaction.home.myinfo.in.moresetting.exports.ExportsActivity"
+            android:exported="false" />
+        <activity
+            android:name=".transaction.home.overview.in.classify.ClassifiedStatisticActivity"
+            android:exported="false" />
+        <activity
+            android:name=".transaction.home.myinfo.in.search.SearchByTimeActivity"
+            android:exported="false" />
+        <activity
+            android:name=".transaction.home.myinfo.in.search.SearchsActivity"
+            android:exported="false" />
+        <activity
+            android:name=".transaction.home.myinfo.in.search.SearchByKeywordActivity"
+            android:exported="false" />
+        <activity
+            android:name=".transaction.other.CheckPasswordActivity"
+            android:exported="false" />
+
+        <receiver
+            android:name=".widget.EasyDesktopWidget"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.appwidget.action.APPWIDGET_UPDATE" />
+            </intent-filter>
+
+            <meta-data
+                android:name="android.appwidget.provider"
+                android:resource="@xml/song_guo_desktop_widget_info" />
+        </receiver>
+
+        <activity
+            android:name=".transaction.home.overview.in.SettingBudgetActivity"
+            android:exported="false" />
+        <activity
+            android:name=".widget.WidgetJumpActivity"
+            android:exported="false" />
+        <activity
+            android:name=".transaction.home.list.in.account.choose.ShowChosenEventPageActivity"
+            android:exported="false" />
+        <activity
+            android:name=".transaction.home.list.in.event.choose.ShowChosenAccountPageActivity"
+            android:exported="false" />
+        <activity
+            android:name=".transaction.home.list.in.account.choose.ChooseEventPageActivity"
+            android:exported="false" />
+        <activity
+            android:name=".transaction.home.list.in.event.edit.UpdateEditEventPageActivity"
+            android:exported="false" />
+        <activity
+            android:name=".transaction.home.list.in.event.edit.AddEditEventPageActivity"
+            android:exported="false" />
+        <activity
+            android:name=".transaction.home.list.in.event.choose.ChooseShowAccountListPageActivity"
+            android:exported="false" />
+        <activity
+            android:name=".transaction.home.myinfo.in.moresetting.MoreSettingActivity"
+            android:exported="false" />
+        <activity
+            android:name=".transaction.home.myinfo.in.moresetting.imports.ImportsActivity"
+            android:exported="false" />
+        <activity
+            android:name=".transaction.home.myinfo.in.moresetting.tag.AddTagActivity"
+            android:exported="false" />
+        <activity
+            android:name=".transaction.home.myinfo.in.AboutPageActivity"
+            android:exported="false" />
+        <activity
+            android:name=".transaction.home.myinfo.in.switchaccountbook.SwitchAccountBookPageActivity"
+            android:exported="false" />
+        <activity
+            android:name=".transaction.home.myinfo.in.UpdatePasswordPageActivity"
+            android:exported="false" />
+        <activity
+            android:name=".transaction.home.myinfo.in.UpdateUsernamePageActivity"
+            android:exported="false" />
+        <activity
+            android:name=".transaction.home.list.in.account.edit.UpdateEditAccountPageActivity"
+            android:exported="false" />
+        <activity
+            android:name=".transaction.home.list.in.account.edit.AddEditAccountPageActivity"
+            android:exported="false" />
+        <activity
+            android:name=".transaction.guide.GuideAccountBookNamePageActivity"
+            android:exported="false" />
+        <activity
+            android:name=".transaction.guide.GuideEnablePasswordCheckPageActivity"
+            android:exported="false" />
+        <activity
+            android:name=".transaction.guide.GuideRepasswordPageActivity"
+            android:exported="false" />
+        <activity
+            android:name=".transaction.guide.GuidePasswordPageActivity"
+            android:exported="false" />
+        <activity
+            android:name=".transaction.guide.GuideUsernamePageActivity"
+            android:exported="false" />
+        <activity
+            android:name=".transaction.guide.GuideStartPageActivity"
+            android:exported="false" />
+        <activity
+            android:name=".transaction.home.HomePageActivity"
+            android:exported="false" />
+        <activity
+            android:name=".MainActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

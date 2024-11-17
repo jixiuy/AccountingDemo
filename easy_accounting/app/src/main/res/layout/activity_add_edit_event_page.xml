@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/background_gray"
+    android:orientation="vertical"
+    android:paddingTop="@dimen/app_top">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:padding="10dp">
+
+        <TextView
+            android:id="@+id/activity_add_edit_event_page_back_textview"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingLeft="10dp"
+            android:text="@string/back"
+            android:textSize="18sp" />
+
+
+        <TextView
+            android:id="@+id/activity_add_edit_event_page_time"            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="2021/11/07"
+            android:textSize="18sp" />
+
+
+        <TextView
+            android:id="@+id/activity_add_edit_event_page_save"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingRight="10dp"
+            android:gravity="center"
+            android:text="√"
+            android:textSize="18sp" />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:orientation="vertical"
+        android:padding="10dp"
+        android:background="@color/background_white">
+        <EditText
+            android:id="@+id/activity_add_edit_event_page_event_title"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/background_white"
+            android:gravity="center_vertical|left"
+            android:hint="标题"
+            android:textSize="30sp"/>
+
+        <EditText
+            android:id="@+id/activity_add_edit_event_page_event_content"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:background="@color/background_white"
+            android:gravity="top"
+            android:scrollbars="vertical"
+            android:hint="输入正文..."/>
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:id="@+id/activity_add_edit_event_page_more"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        >
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="3"
+            android:gravity="center"
+            android:orientation="vertical"
+            android:padding="15dp">
+            <View
+                android:layout_width="30dp"
+                android:layout_height="1dp"
+                android:background="@color/black"/>
+            <View
+                android:layout_width="30dp"
+                android:layout_height="1dp"
+                android:background="@color/black"
+                android:layout_margin="5dp"/>
+            <View
+                android:layout_width="30dp"
+                android:layout_height="1dp"
+                android:background="@color/black"/>
+        </LinearLayout>
+
+
+
+    </LinearLayout>
+
+</LinearLayout>

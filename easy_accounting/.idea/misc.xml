@@ -1,0 +1,65 @@
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/my_file/projects/android_projects/song_guo/pinecone-bookkeeping-master/app/src/main/res/drawable-v21/app_widget_background.xml" value="0.216" />
+        <entry key="..\:/my_file/projects/android_projects/song_guo/pinecone-bookkeeping-master/app/src/main/res/drawable-v21/app_widget_inner_view_background.xml" value="0.216" />
+        <entry key="..\:/my_file/projects/android_projects/song_guo/pinecone-bookkeeping-master/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" value="0.216" />
+        <entry key="..\:/my_file/projects/android_projects/song_guo/pinecone-bookkeeping-master/app/src/main/res/drawable/ic_launcher_background.xml" value="0.216" />
+        <entry key="..\:/my_file/projects/android_projects/song_guo/pinecone-bookkeeping-master/app/src/main/res/drawable/rounded_corner.xml" value="0.1555" />
+        <entry key="..\:/my_file/projects/android_projects/song_guo/pinecone-bookkeeping-master/app/src/main/res/drawable/text_view_circle.xml" value="0.216" />
+        <entry key="..\:/my_file/projects/android_projects/song_guo/pinecone-bookkeeping-master/app/src/main/res/layout/activity_about_page.xml" value="0.25364583333333335" />
+        <entry key="..\:/my_file/projects/android_projects/song_guo/pinecone-bookkeeping-master/app/src/main/res/layout/activity_add_edit_account_page.xml" value="0.2976913730255164" />
+        <entry key="..\:/my_file/projects/android_projects/song_guo/pinecone-bookkeeping-master/app/src/main/res/layout/activity_add_edit_event_page.xml" value="0.20969202898550723" />
+        <entry key="..\:/my_file/projects/android_projects/song_guo/pinecone-bookkeeping-master/app/src/main/res/layout/activity_add_tag.xml" value="0.264" />
+        <entry key="..\:/my_file/projects/android_projects/song_guo/pinecone-bookkeeping-master/app/src/main/res/layout/activity_bacup_setting.xml" value="0.264" />
+        <entry key="..\:/my_file/projects/android_projects/song_guo/pinecone-bookkeeping-master/app/src/main/res/layout/activity_check_password.xml" value="0.20969202898550723" />
+        <entry key="..\:/my_file/projects/android_projects/song_guo/pinecone-bookkeeping-master/app/src/main/res/layout/activity_choose_account_page.xml" value="0.25364583333333335" />
+        <entry key="..\:/my_file/projects/android_projects/song_guo/pinecone-bookkeeping-master/app/src/main/res/layout/activity_choose_event_page.xml" value="0.25364583333333335" />
+        <entry key="..\:/my_file/projects/android_projects/song_guo/pinecone-bookkeeping-master/app/src/main/res/layout/activity_classified_statistic_page.xml" value="0.25364583333333335" />
+        <entry key="..\:/my_file/projects/android_projects/song_guo/pinecone-bookkeeping-master/app/src/main/res/layout/activity_exports.xml" value="0.25364583333333335" />
+        <entry key="..\:/my_file/projects/android_projects/song_guo/pinecone-bookkeeping-master/app/src/main/res/layout/activity_guide_account_book_name_page.xml" value="0.25364583333333335" />
+        <entry key="..\:/my_file/projects/android_projects/song_guo/pinecone-bookkeeping-master/app/src/main/res/layout/activity_guide_enable_password_check_page.xml" value="0.25364583333333335" />
+        <entry key="..\:/my_file/projects/android_projects/song_guo/pinecone-bookkeeping-master/app/src/main/res/layout/activity_guide_password_page.xml" value="0.125" />
+        <entry key="..\:/my_file/projects/android_projects/song_guo/pinecone-bookkeeping-master/app/src/main/res/layout/activity_guide_repassword_page.xml" value="0.25364583333333335" />
+        <entry key="..\:/my_file/projects/android_projects/song_guo/pinecone-bookkeeping-master/app/src/main/res/layout/activity_guide_start_page.xml" value="0.125" />
+        <entry key="..\:/my_file/projects/android_projects/song_guo/pinecone-bookkeeping-master/app/src/main/res/layout/activity_imports.xml" value="0.125" />
+        <entry key="..\:/my_file/projects/android_projects/song_guo/pinecone-bookkeeping-master/app/src/main/res/layout/activity_more_setting.xml" value="0.15" />
+        <entry key="..\:/my_file/projects/android_projects/song_guo/pinecone-bookkeeping-master/app/src/main/res/layout/activity_search_by_keyword_page.xml" value="0.125" />
+        <entry key="..\:/my_file/projects/android_projects/song_guo/pinecone-bookkeeping-master/app/src/main/res/layout/activity_search_by_time_page.xml" value="0.125" />
+        <entry key="..\:/my_file/projects/android_projects/song_guo/pinecone-bookkeeping-master/app/src/main/res/layout/activity_searchs.xml" value="0.125" />
+        <entry key="..\:/my_file/projects/android_projects/song_guo/pinecone-bookkeeping-master/app/src/main/res/layout/activity_setting_budget.xml" value="0.125" />
+        <entry key="..\:/my_file/projects/android_projects/song_guo/pinecone-bookkeeping-master/app/src/main/res/layout/activity_show_chosen_account_page.xml" value="0.125" />
+        <entry key="..\:/my_file/projects/android_projects/song_guo/pinecone-bookkeeping-master/app/src/main/res/layout/activity_show_chosen_event_page.xml" value="0.125" />
+        <entry key="..\:/my_file/projects/android_projects/song_guo/pinecone-bookkeeping-master/app/src/main/res/layout/activity_update_edit_account_page.xml" value="0.4240583232077764" />
+        <entry key="..\:/my_file/projects/android_projects/song_guo/pinecone-bookkeeping-master/app/src/main/res/layout/activity_update_edit_event_page.xml" value="0.25364583333333335" />
+        <entry key="..\:/my_file/projects/android_projects/song_guo/pinecone-bookkeeping-master/app/src/main/res/layout/activity_update_password_page.xml" value="0.125" />
+        <entry key="..\:/my_file/projects/android_projects/song_guo/pinecone-bookkeeping-master/app/src/main/res/layout/activity_update_username_page.xml" value="0.125" />
+        <entry key="..\:/my_file/projects/android_projects/song_guo/pinecone-bookkeeping-master/app/src/main/res/layout/block_with_time_and_account_list_recycle_view_item.xml" value="0.125" />
+        <entry key="..\:/my_file/projects/android_projects/song_guo/pinecone-bookkeeping-master/app/src/main/res/layout/fragment_show_account_list.xml" value="0.125" />
+        <entry key="..\:/my_file/projects/android_projects/song_guo/pinecone-bookkeeping-master/app/src/main/res/layout/fragment_show_event_list.xml" value="0.125" />
+        <entry key="..\:/my_file/projects/android_projects/song_guo/pinecone-bookkeeping-master/app/src/main/res/layout/home_page.xml" value="0.125" />
+        <entry key="..\:/my_file/projects/android_projects/song_guo/pinecone-bookkeeping-master/app/src/main/res/layout/item_account_list.xml" value="0.7424242424242424" />
+        <entry key="..\:/my_file/projects/android_projects/song_guo/pinecone-bookkeeping-master/app/src/main/res/layout/item_choose_account_list.xml" value="0.8" />
+        <entry key="..\:/my_file/projects/android_projects/song_guo/pinecone-bookkeeping-master/app/src/main/res/layout/item_event_list.xml" value="0.25364583333333335" />
+        <entry key="..\:/my_file/projects/android_projects/song_guo/pinecone-bookkeeping-master/app/src/main/res/layout/item_event_list_choose.xml" value="0.25364583333333335" />
+        <entry key="..\:/my_file/projects/android_projects/song_guo/pinecone-bookkeeping-master/app/src/main/res/layout/item_search_result.xml" value="0.25364583333333335" />
+        <entry key="..\:/my_file/projects/android_projects/song_guo/pinecone-bookkeeping-master/app/src/main/res/layout/item_show_chosen_account_list.xml" value="0.25364583333333335" />
+        <entry key="..\:/my_file/projects/android_projects/song_guo/pinecone-bookkeeping-master/app/src/main/res/layout/item_switch_account_book.xml" value="0.25364583333333335" />
+        <entry key="..\:/my_file/projects/android_projects/song_guo/pinecone-bookkeeping-master/app/src/main/res/layout/item_tag_grid.xml" value="0.25364583333333335" />
+        <entry key="..\:/my_file/projects/android_projects/song_guo/pinecone-bookkeeping-master/app/src/main/res/layout/my_info_page.xml" value="0.25364583333333335" />
+        <entry key="..\:/my_file/projects/android_projects/song_guo/pinecone-bookkeeping-master/app/src/main/res/layout/show_add_list_page.xml" value="0.125" />
+        <entry key="..\:/my_file/projects/android_projects/song_guo/pinecone-bookkeeping-master/app/src/main/res/layout/show_overview_page.xml" value="0.25364583333333335" />
+        <entry key="..\:/my_file/projects/android_projects/song_guo/pinecone-bookkeeping-master/app/src/main/res/layout/song_guo_desktop_widget.xml" value="0.25364583333333335" />
+        <entry key="..\:/my_file/projects/android_projects/song_guo/pinecone-bookkeeping-master/app/src/main/res/layout/welcome_page.xml" value="0.25364583333333335" />
+        <entry key="..\:/my_file/projects/android_projects/song_guo/pinecone-bookkeeping-master/app/src/main/res/menu/home_page_nav_menu.xml" value="0.146875" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_17" default="true" project-jdk-name="jbr-17" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

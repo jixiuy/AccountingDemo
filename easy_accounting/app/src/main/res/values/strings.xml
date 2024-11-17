@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name_en">Pine cones account</string>
+    <string name="app_name_cn">松果记账</string>
+    <string name="vertical_bar"></string>
+    <string name="back">&lt;</string>
+    <string name="at">\u0040</string>
+    <string name="sanheng">≡</string>
+    <string name="appwidget_text">EXAMPLE</string>
+    <string name="add_widget">Add widget</string>
+    <string name="app_widget_description">This is an app widget description</string>
+</resources>

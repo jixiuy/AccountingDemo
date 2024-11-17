@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/background_white"
+    android:orientation="vertical"
+    android:paddingTop="@dimen/app_top">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:padding="10dp">
+
+        <TextView
+            android:id="@+id/activity_add_tag_page_back_textview"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingLeft="10dp"
+            android:text="@string/back"
+            android:textSize="18sp" />
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="新建标签"
+            android:textSize="18sp" />
+
+        <TextView
+            android:id="@+id/activity_add_tag_page_save_textview"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingRight="10dp"
+            android:gravity="center"
+            android:text="√"
+            android:textSize="18sp" />
+    </LinearLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@color/line_gray" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:padding="10sp"
+            >
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="60sp"
+                android:orientation="horizontal"
+                android:layout_marginBottom="10sp">
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:text="标签名"
+                    android:textSize="20sp"
+                    android:gravity="center|center_vertical"
+                    />
+
+                <EditText
+                    android:id="@+id/activity_add_tag_page_tag_name_edit_text"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="2"
+                    android:gravity="center|center_vertical"
+                    android:hint="建议不超过三个字"
+                    />
+            </LinearLayout>
+
+
+            <com.larswerkman.holocolorpicker.ColorPicker
+                android:id="@+id/activity_add_tag_page_color_picker"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginBottom="10sp"
+                />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="40sp"
+                android:text="预览"
+                android:gravity="center|center_vertical"
+                />
+            <TextView
+                android:id="@+id/activity_add_tag_page_preview_image_text_view"
+                android:layout_width="200dp"
+                android:layout_height="200dp"
+                android:text="充值"
+                android:textColor="@color/white"
+                android:textSize="40sp"
+                android:layout_gravity="center"
+                android:gravity="center_vertical|center"
+                android:background="@drawable/text_view_circle"
+                />
+        </LinearLayout>
+
+
+    </ScrollView>
+
+
+</LinearLayout>
